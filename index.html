@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/main.css" />
+</head>
+
+<body>
+
+    <div class="conculation">
+        <p class="name-Modz">Modz Calculator</p>
+        <div class="input">
+
+            <input class="answer" id="output" placeholder="0">
+
+        </div>
+        <div>
+            <input type="submit" value="AC" class="botton" onclick="back()">
+            <input type="submit" value="CE" class="botton" onclick="cler()">
+            <input type="submit" value="%" class="botton" onclick="getOpered('%')">
+            <input type="submit" value="/" class="botton" onclick="getOpered('/')">
+        </div>
+        <div>
+            <input type="submit" value="7" class="botton" onclick="getNumber(7)">
+            <input type="submit" value="8" class="botton" onclick="getNumber(8)">
+            <input type="submit" value="9" class="botton" onclick="getNumber(9)">
+            <input type="submit" value="*" class="botton" onclick="getOpered('*')">
+        </div>
+        <div>
+            <input type="submit" value="4" class="botton" onclick="getNumber(4)">
+            <input type="submit" value="5" class="botton" onclick="getNumber(5)">
+            <input type="submit" value="6" class="botton" onclick="getNumber(6)">
+            <input type="submit" value="-" class="botton" onclick="getOpered('-')">
+        </div>
+        <div>
+            <input type="submit" value="1" class="botton" onclick="getNumber(1)">
+            <input type="submit" value="2" class="botton" onclick="getNumber(2)">
+            <input type="submit" value="3" class="botton" onclick="getNumber(3)">
+            <input type="submit" value="+" class="botton" onclick="getOpered('+')">
+        </div>
+        <div>
+            <input type="submit" value="." class="botton" onclick="getOpered('.')">
+            <input type="submit" value="0" class="botton" onclick="getNumber(0)">
+            <input type="submit" value="Ans" class="botton" onclick="cler()">
+            <input type="submit" value="=" class="botton" onclick="getanswer()">
+        </div>
+
+    </div>
+    <script src="JS/javascript.js">
+    </script>
+
+
+</body>
+
+</html>
