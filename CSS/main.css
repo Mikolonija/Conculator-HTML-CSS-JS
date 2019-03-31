@@ -6,8 +6,9 @@
 
 body {
     background-image: url("../IMG/account-black-and-white-business-209137.jpg");
-    background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
 }
 
 .name-Modz {
